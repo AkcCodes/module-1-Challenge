@@ -1,13 +1,14 @@
+/* lines 2-6 is the universal look of the site*/
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
-
+/* lines 8-11 is for the entire body of the page*/
 body {
     background-color: #d9dcd6;
 }
-
+/* Lines 11-16 hold the styling for everything in the header*/
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -40,16 +41,16 @@ header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
-
+/* lines 44-47 is how we want the links in the nav to look*/
 a {
     color: #ffffff;
     text-decoration: none;
 }
-
+/* lines 49-51 dictate how all of the paragraphs should be styled */
 p {
     font-size: 16px;
 }
-
+/* lines 53-60 dictates the size and image for the hero at the top half of the screen*/
  .hero {
     height: 800px;
     width: 100%;
@@ -58,23 +59,39 @@ p {
     background-size: cover;
     background-position: center;
 }
-/*
-.float-left {
-    float: left;
-    margin-right: 25px;
-}
-*/
-.float-right {
-    float: right;
-    margin-left: 25px;
-}
-
+/* lines 62-66 dictates the size and form of all of the articles*/
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+/* lines 68-75 dictates how all of the articles on the page should be styled*/
+article {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+/* lines 77-82 dictates how all of the article images, EXCEPT FOR the online reputation image, should look*/
+article img {
+    max-height: 200px;
+    float: left;
+    margin-right: 25px;
+}
+/*lines 83-87 dictates how the headings inside the article look*/
+article h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+/* lines 88-92 puts the image under the "online reputation management" article to the right of the article rather than the left*/
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+/* lines 94-103 dictates how the aside section should look*/
 aside {
     margin-right: 20px;
     padding: 20px;
@@ -85,51 +102,31 @@ aside {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
 }
-
+/* lines 105-109 dictates the look of the benefits inside of the aside*/
 .benefit{
     margin-bottom: 32px;
     color: #ffffff;
     background-color: #2589bd;
 }
-
+/* lines 111-114 dictates how the headers should look in the aside section*/
  h3{
     margin-bottom: 10px;
     text-align: center;
 }
-
+/* lines 116-120 dictates how the images in benefit should look*/
 .benefit img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
-
-article {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-article img {
-    max-height: 200px;
-    float: left;
-    margin-right: 25px;
-}
-
-article h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
+/* lines 122-127 is for the footer*/
 footer {
     padding: 20px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
-
+/*lines 129-131 is for the text inside of the footer*/
 footer h2 {
     font-size: 20px;
 }
